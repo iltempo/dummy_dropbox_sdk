@@ -8,7 +8,7 @@ class DummyDropboxSdkTest < Test::Unit::TestCase
   end
 
   def test_serialize
-    assert_equal("--- dummy serial\n", @session.serialize )
+    assert_equal("dummy serial".to_yaml, @session.serialize )
   end
 
   def test_get_authorize_url
