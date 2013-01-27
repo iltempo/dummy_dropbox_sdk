@@ -1,5 +1,5 @@
 require 'test/unit'
-require "#{File.dirname(__FILE__)}/../lib/dummy_dropbox_sdk.rb"
+require "dummy_dropbox_sdk"
 
 class DummyDropboxSdkTest < Test::Unit::TestCase
   def setup
