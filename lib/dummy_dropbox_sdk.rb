@@ -6,6 +6,7 @@ rescue LoadError
 end
 require 'ostruct'
 require 'mime/types'
+require 'fileutils'
 
 GIGA_SIZE = 1073741824.0
 MEGA_SIZE = 1048576.0
